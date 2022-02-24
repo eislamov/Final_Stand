@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Object" />
+			<Item Name="Columns.Date.Caption" Value="Дата сеанса" />
+			<Item Name="Columns.Duration.Caption" Value="Длительность сеанса, мин." />
+			<Item Name="Columns.Operator.Caption" Value="Оператор" />
+			<Item Name="Columns.Price.Caption" Value="Стоимость" />
+			<Item Name="Columns.Status.Caption" Value="Состояние сеанса" />
+			<Item Name="Columns.TreatmentProg.Caption" Value="Лечебные программы" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

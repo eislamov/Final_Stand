@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "18fe31d6-c2d3-4282-be57-582ec9c1db90",
+    "Name": "BootstrapModulesV2",
+    "ModifiedOnUtc": "\/Date(1645685718000)\/",
+    "Parent": {
+      "UId": "7dc0e82d-cb4a-43ba-9753-1d38501a267a",
+      "Name": "BootstrapModulesV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "BootstrapModulesV2"
+  }
+}

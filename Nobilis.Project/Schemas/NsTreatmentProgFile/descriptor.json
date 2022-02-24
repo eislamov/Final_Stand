@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "68f81570-b919-4eec-b3ef-4e219ec74c23",
+    "Name": "NsTreatmentProgFile",
+    "ModifiedOnUtc": "\/Date(1645625217000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Лечебные программы"
+  }
+}

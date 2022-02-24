@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5d1ba508-b6eb-42dd-be08-f29d0d03489e",
+    "Name": "NsSessions",
+    "ModifiedOnUtc": "\/Date(1645690067000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Сеансы"
+  }
+}

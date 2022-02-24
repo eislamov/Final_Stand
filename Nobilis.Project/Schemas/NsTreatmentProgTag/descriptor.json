@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9a3d0f28-ba1c-47c5-86d4-02b10cf20149",
+    "Name": "NsTreatmentProgTag",
+    "ModifiedOnUtc": "\/Date(1645625223000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Лечебные программы"
+  }
+}

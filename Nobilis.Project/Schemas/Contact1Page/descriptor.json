@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ff8ff954-a658-4dfa-a6e8-e284b7075f3b",
+    "Name": "Contact1Page",
+    "ModifiedOnUtc": "\/Date(1645638353000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Контакт\" (Сотрудник)"
+  }
+}

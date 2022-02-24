@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2c2c4a66-f091-4c99-a678-6826bee73365",
+    "Name": "NsPeriodTreatment",
+    "ModifiedOnUtc": "\/Date(1645633332000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Периодичность лечебных программ"
+  }
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Лечебные программы&quot;" />
+			<Item Name="LocalizableStrings.NsLimitOfDailyTreatmentProg.Value" Value="Допускается не более {0} активных ежедневных сеансов" />
+			<Item Name="LocalizableStrings.NsSessionsDetaild5a1b4b7DetailCaptionOnPage.Value" Value="Сеансы" />
+			<Item Name="LocalizableStrings.Tab4d6f49baTabLabelTabCaption.Value" Value="Сеансы" />
+		</Items>
+	</Group>
+</Resources>
