@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "bc56e770-a84c-45af-816d-84f080dd6b4e",
     "Name": "NsSessionsDetail",
-    "ModifiedOnUtc": "\/Date(1645772133000)\/",
+    "ModifiedOnUtc": "\/Date(1646211662000)\/",
     "Parent": {
       "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
       "Name": "BaseGridDetailV2"
