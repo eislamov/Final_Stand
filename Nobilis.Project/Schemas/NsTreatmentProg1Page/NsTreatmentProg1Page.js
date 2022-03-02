@@ -1,4 +1,4 @@
-define("NsTreatmentProg1Page", [], function() {
+define("NsTreatmentProg1Page", ["ProcessModuleUtilities"], function(ProcessModuleUtilities) {
 	return {
 		entitySchemaName: "NsTreatmentProg",
 		attributes: {
@@ -74,8 +74,7 @@ define("NsTreatmentProg1Page", [], function() {
                         this.set("Code", response);
                     });
                 }
-            },
-
+			},
 			asyncValidate: function(callback, scope) {
 				this.callParent([function(response) {
 					if (!this.validateResponse(response)) {
@@ -112,11 +111,17 @@ define("NsTreatmentProg1Page", [], function() {
 					}
 					var esq = Ext.create("Terrasoft.EntitySchemaQuery", { rootSchemaName: "NsTreatmentProg"});
 					esq.addColumn("Period.Id", "PeriodId");
-					esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
+					esq.addColumn("Active");
+					var filter1= esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
 						"Period.Id", Terrasoft.NsConstantsJS.NsPeriodTreatment.Daily));
+					var filter2= esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
+						"Active", true));
+					esq.filters.logicalOperation = Terrasoft.LogicalOperatorType.AND;
+					esq.filters.add("filter1", filter1);
+					esq.filters.add("filter2", filter2);
 					esq.getEntityCollection(function(response) {
 						if (response.success && periodicity === Terrasoft.NsConstantsJS.NsPeriodTreatment.Daily && activity &&
-							 (this.changedValues && response.collection.getCount() > countSettings)) {
+							 (this.changedValues && response.collection.getCount() >= countSettings)) {
 								result.message = Ext.String.format(this.get("Resources.Strings.NsLimitOfDailyTreatmentProg"), countSettings);
 								result.success = false;
 						}
@@ -124,6 +129,49 @@ define("NsTreatmentProg1Page", [], function() {
 					}, this);
 				}, this);
 			},
+
+			getActions: function() {
+                var actionMenuItems = this.callParent(arguments);
+                actionMenuItems.addItem(this.getActionsMenuItem({
+                    Type: "Terrasoft.MenuSeparator",
+                    Caption: ""
+                }));
+                actionMenuItems.addItem(this.getActionsMenuItem({
+                    "Caption": { bindTo: "Resources.Strings.NsAddRecordSession" },
+                    "Tag": "ClickButtAddRecordSession",
+                    "Visible": true,
+                }));
+                return actionMenuItems;
+            },
+
+			ClickButtAddRecordSession: function(result) {
+				this.showConfirmationDialog(this.get("Resources.Strings.NsAddRecordSessionMessage"), function(returnCode) {
+					if (returnCode === Terrasoft.MessageBoxButtons.YES.returnCode) {
+						var args = {
+							isSilent: true,
+							messageTags: [this.sandbox.id]
+						};
+						this.save();
+						this.AddRecordSession();
+						
+					}
+				}, ["yes", "no"]);
+			},
+
+			AddRecordSession: function() {
+                var IdParameter = this.$Id;
+				var PeriodParametr=this.$Period.value;
+				var OperatorParametr=this.$Owner.value
+                var args = {
+                    sysProcessName: "AddRecordSession",
+                    parameters: {
+                        IdTreatmentProg: IdParameter,
+						PeriodTreatmentProg: PeriodParametr,
+						OperatorSession: OperatorParametr
+                    }
+                };
+                ProcessModuleUtilities.executeProcess(args);
+            },
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[

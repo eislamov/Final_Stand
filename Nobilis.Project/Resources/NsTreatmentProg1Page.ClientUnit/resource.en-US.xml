@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Лечебные программы&quot;" />
+			<Item Name="LocalizableStrings.NsAddRecordSession.Value" Value="Добавить записи в деталь &quot;Сеансы&quot;" />
+			<Item Name="LocalizableStrings.NsAddRecordSessionMessage.Value" Value="Добавить записи в детали &quot;Сеансы?&quot; Перед добавлением, страница будет сохранена." />
 			<Item Name="LocalizableStrings.NsLimitOfDailyTreatmentProg.Value" Value="Допускается не более {0} активных ежедневных сеансов" />
 			<Item Name="LocalizableStrings.NsSessionsDetaild5a1b4b7DetailCaptionOnPage.Value" Value="Сеансы" />
 			<Item Name="LocalizableStrings.Tab4d6f49baTabLabelTabCaption.Value" Value="Сеансы" />

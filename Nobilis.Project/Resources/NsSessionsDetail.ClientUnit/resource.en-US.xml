@@ -4,6 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Схема детали: &quot;Сеансы&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Сеансы" />
+			<Item Name="LocalizableStrings.NsAdd5RecordSession.Value" Value="Добавить 5 записей в деталь &quot;Сеансы&quot;" />
+			<Item Name="LocalizableStrings.NsAdd5RecordSessionMessage.Value" Value="Добавить 5 записей в детали &quot;Сеансы?&quot; Перед добавлением, страница не будет сохранена." />
 		</Items>
 	</Group>
 </Resources>

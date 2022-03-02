@@ -1,0 +1,10 @@
+﻿{
+  "SqlScript": {
+    "UId": "f00cb971-8a3d-45eb-3c78-174192b4dd23",
+    "Name": "NsAddRoles",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1646052337000)\/",
+    "DependsOn": []
+  }
+}

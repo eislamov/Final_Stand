@@ -1,0 +1,15 @@
+﻿{
+  "SqlScript": {
+    "UId": "f203927c-426d-a78e-e70e-c9a5311c37ce",
+    "Name": "NsAccessToContact",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1646052934000)\/",
+    "DependsOn": [
+      {
+        "UId": "f00cb971-8a3d-45eb-3c78-174192b4dd23",
+        "Name": "NsAddRoles"
+      }
+    ]
+  }
+}

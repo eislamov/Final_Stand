@@ -1,5 +1,5 @@
-define("NsSessionsDetail", ["ConfigurationGrid", "ConfigurationGridGenerator",
-	"ConfigurationGridUtilitiesV2"], function() {
+define("NsSessionsDetail", ["ServiceHelper", "ConfigurationGrid", "ConfigurationGridGenerator",
+	"ConfigurationGridUtilitiesV2"], function(ServiceHelper) {
 	return {
 		entitySchemaName: "NsSessions",
 		attributes: {
@@ -7,7 +7,7 @@ define("NsSessionsDetail", ["ConfigurationGrid", "ConfigurationGridGenerator",
 				dataValueType: Terrasoft.DataValueType.BOOLEAN,
 				type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN,
 				value: true
-			}
+			},
 		},
 		mixins: {
 			ConfigurationGridUtilitiesV2: "Terrasoft.ConfigurationGridUtilitiesV2"
@@ -15,7 +15,62 @@ define("NsSessionsDetail", ["ConfigurationGrid", "ConfigurationGridGenerator",
 		methods: {
 			onActiveRowAction: function(buttonTag, primaryColumnValue) {
 				this.mixins.ConfigurationGridUtilitiesV2.onActiveRowAction.call(this, buttonTag, primaryColumnValue);
-			}
+			},
+			
+			addToolsButtonMenuItems: function(toolsButtonMenu) {
+				this.addRecordOperationsMenuItems(toolsButtonMenu);
+				this.addGridOperationsMenuItems(toolsButtonMenu);
+				if (this.useDetailWizard) {
+					this.Ns_addDetailWizardAdd5Record(toolsButtonMenu);
+				}
+			},
+			Ns_addDetailWizardAdd5Record: function(toolsButtonMenu) {
+				toolsButtonMenu.addItem(this.getButtonMenuSeparator());
+				toolsButtonMenu.add("WizardMenuItem", this.getButtonMenuItem({
+					Caption: {"bindTo": "Resources.Strings.NsAdd5RecordSession"},
+					Click: {"bindTo": "Ns_ClickButtAdd5Record"},
+					Visible: true
+				}));
+			},
+
+			Ns_ClickButtAdd5Record: function(result) {
+				this.showConfirmationDialog(this.get("Resources.Strings.NsAdd5RecordSessionMessage"), function(returnCode) {
+					if (returnCode === Terrasoft.MessageBoxButtons.YES.returnCode) {
+						var args = {
+							isSilent: true,
+							messageTags: [this.sandbox.id]
+						};
+						//this.sandbox.publish("SaveRecord", args, [this.sandbox.id]);
+						this.Ns_Add5RecordLookUp();
+					}
+				}, ["yes", "no"]);
+			},
+
+			Ns_Add5RecordLookUp:function() {
+				var config = {
+					entitySchemaName: "NsPeriodTreatment",
+					multiSelect: false,
+					columns: ["Id"],
+				}
+				this.openLookup(config, this.Ns_Add5Record, this);
+			},
+
+			Ns_Add5Record:function(values, arg) {
+				//var Period=setParameterValue("NsPeriodTreatment", item.Id, Terrasoft.DataValueType.GUID)
+				var IdParameter= this.$MasterRecordId;
+				var selectedItems=values.selectedRows.getItems();
+				var Periodselected=selectedItems[0];
+				var Period=Periodselected.Id;
+				var serviceData = {
+					TreatmentProgId: IdParameter,
+					PeriodTreatment:Period
+				};
+				ServiceHelper.callService("NsTreatmentProgService", "Add5RecordsToSession",
+                        function(response) {
+                            var result = response.Ns_Add5RecordsToSessionResult;
+                        }, serviceData, this);
+				this.reloadGridData();
+			},
 		},
 		diff: /**SCHEMA_DIFF*/[
 			{

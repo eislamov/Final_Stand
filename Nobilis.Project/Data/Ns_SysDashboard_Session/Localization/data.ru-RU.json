@@ -1,0 +1,23 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "e8b605bc-0d91-42e5-898a-4de07b09301c"
+        },
+        {
+          "SchemaColumnUId": "a215f575-7283-41bd-8852-b2415a935051",
+          "ColumnName": "Caption",
+          "Value": "Сеансы проведенные в текущем месяце"
+        },
+        {
+          "SchemaColumnUId": "551ce105-25dc-4a76-b318-cf37635e88c3",
+          "ColumnName": "Items",
+          "Value": "{\"Chartab5357df519e\":{\"parameters\":{\"seriesConfig\":[],\"orderBy\":\"GroupByField\",\"orderDirection\":\"Ascending\",\"dateTimeFormat\":null,\"caption\":\"Сеансы проведенные в текущем месяце\",\"sectionId\":\"5026efc8-5b3c-4026-b1e4-b12a057e4f9f\",\"xAxisDefaultCaption\":\"Лечебные программы\",\"yAxisDefaultCaption\":\"Количество сеансов\",\"useEmptyValue\":false,\"isStackedChart\":false,\"primaryColumnName\":\"Id\",\"yAxisConfig\":{\"position\":0},\"schemaName\":\"NsSessions\",\"sectionBindingColumn\":\"TreatmentProg\",\"func\":1,\"isPercentageMode\":false,\"type\":\"column\",\"xAxisColumn\":\"TreatmentProg\",\"yAxisColumn\":null,\"styleColor\":\"widget-green\",\"filterData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"0934dd98-d768-4843-8de4-ca030f56d76c\\\":{\\\"className\\\":\\\"Terrasoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":true,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Date\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"0934dd98-d768-4843-8de4-ca030f56d76c\\\",\\\"dataValueType\\\":7,\\\"leftExpressionCaption\\\":\\\"Дата сеанса\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"Terrasoft.FunctionExpression\\\",\\\"expressionType\\\":1,\\\"functionType\\\":1,\\\"macrosType\\\":10}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"NsSessions\\\",\\\"key\\\":\\\"\\\"}\",\"format\":{\"thousandSeparator\":\" \",\"type\":4,\"dateFormat\":\"d.m.Y\"},\"isLegendEnabled\":false},\"widgetType\":\"Chart\"}}"
+        }
+      ]
+    }
+  ]
+}

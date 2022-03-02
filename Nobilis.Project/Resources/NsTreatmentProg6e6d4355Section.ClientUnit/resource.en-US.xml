@@ -4,6 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Схема раздела: &quot;Лечебные программы&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Лечебные программы" />
+			<Item Name="LocalizableStrings.NsAddRecordSession.Value" Value="Добавить записи в деталь &quot;Сеансы&quot;" />
+			<Item Name="LocalizableStrings.NsAddRecordSessionMessage.Value" Value="Добавить записи в детали &quot;Сеансы?&quot; Перед добавлением, страница будет сохранена." />
 		</Items>
 	</Group>
 </Resources>

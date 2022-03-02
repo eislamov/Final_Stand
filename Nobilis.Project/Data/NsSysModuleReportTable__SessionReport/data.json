@@ -1,0 +1,61 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2c6ff707-0d55-42c3-8efe-aad80559e644"
+        },
+        {
+          "SchemaColumnUId": "6e37e4a0-1c37-4475-83aa-dd218ff47173",
+          "Value": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617"
+        },
+        {
+          "SchemaColumnUId": "1a6de7b4-2b63-4983-989c-e5f5ad91c559",
+          "Value": "Лечебные программы"
+        },
+        {
+          "SchemaColumnUId": "2f929142-c949-4965-822b-718d744291fa",
+          "Value": "5d1ba508-b6eb-42dd-be08-f29d0d03489e"
+        },
+        {
+          "SchemaColumnUId": "1ec0aaa5-139f-e8c5-7269-e96044b51ae1",
+          "Value": "{\"className\":\"Terrasoft.FilterGroup\",\"items\":{\"c6a7ab64-ad6d-460b-9389-c8bfbc147721\":{\"className\":\"Terrasoft.CompareFilter\",\"filterType\":1,\"comparisonType\":3,\"isEnabled\":true,\"trimDateTimeParameterToDate\":true,\"leftExpression\":{\"className\":\"Terrasoft.ColumnExpression\",\"expressionType\":0,\"columnPath\":\"Date\"},\"isAggregative\":false,\"key\":\"c6a7ab64-ad6d-460b-9389-c8bfbc147721\",\"dataValueType\":7,\"leftExpressionCaption\":\"Дата сеанса\",\"rightExpression\":{\"className\":\"Terrasoft.FunctionExpression\",\"expressionType\":1,\"functionType\":1,\"macrosType\":10}}},\"logicalOperation\":0,\"isEnabled\":true,\"filterType\":6,\"rootSchemaName\":\"NsSessions\",\"key\":\"\"}"
+        },
+        {
+          "SchemaColumnUId": "154371d2-7624-4a1b-8019-e5c202c2260d",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7ac8fc3b-9f5f-40d3-8918-3c18bc54cc23",
+          "Value": "Id"
+        },
+        {
+          "SchemaColumnUId": "b54b15ab-474f-117c-f6ae-616896984747",
+          "Value": "[{caption:\"Дата сеанса\",metaPath:\"8210789c-a95f-ff3e-5d0b-abaac4e5824b\",metaPathCaption:\"Дата сеанса\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"NsSessions\\\",\\\"key\\\":\\\"\\\"}\",dataValueType:\"DateTime\"},{caption:\"Стоимость\",metaPath:\"47604b41-030d-dcda-07f2-e146bcba3819\",metaPathCaption:\"Стоимость\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"key\\\":\\\"\\\"}\",dataValueType:\"Money\"},{caption:\"Оператор\",metaPath:\"474a994c-9750-5e1d-3753-fe2d2b861de6\",metaPathCaption:\"Оператор\",aggregationType:\"None\",subFilters:\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"key\\\":\\\"\\\"}\",dataValueType:\"Lookup\"}]"
+        },
+        {
+          "SchemaColumnUId": "2f560358-9c67-4ddb-8ae8-e9507c0faab9",
+          "Value": "Сеансы"
+        },
+        {
+          "SchemaColumnUId": "dcbcf570-397b-4c65-bc5c-ffc91e6cc60a",
+          "Value": "Сеансы"
+        },
+        {
+          "SchemaColumnUId": "b368f76c-1279-4700-8914-e821390edfdd",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8501dbf4-1603-4e8b-b875-e1d9c8de5e8c",
+          "Value": "0cbf36bb-793d-30c6-7c04-e77273fb4fdf",
+          "DisplayValue": "Сеансы оказанные в текущем месяце"
+        },
+        {
+          "SchemaColumnUId": "79a3fa68-aef2-4ed5-86d2-5fb4dc4a7ae3",
+          "Value": "1ac001e9-ef44-5d97-ca13-6cb1a8b47fad"
+        }
+      ]
+    }
+  ]
+}

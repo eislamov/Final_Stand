@@ -1,0 +1,25 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e8b605bc-0d91-42e5-898a-4de07b09301c"
+        },
+        {
+          "SchemaColumnUId": "78ed4015-b81f-49fc-9d50-847cf8df5e6c",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "fb750eb9-35b6-463e-b3b8-1a69ec871e43",
+          "Value": "[{\"layout\":{\"column\":0,\"row\":0,\"colSpan\":21,\"rowSpan\":9},\"name\":\"Chartab5357df519e\",\"itemType\":4}]"
+        },
+        {
+          "SchemaColumnUId": "9eedf8ab-d02e-4a4a-9f9d-19ede1c873bc",
+          "Value": "5026efc8-5b3c-4026-b1e4-b12a057e4f9f",
+          "DisplayValue": "Лечебные программы"
+        }
+      ]
+    }
+  ]
+}

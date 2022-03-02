@@ -1,0 +1,42 @@
+﻿{
+  "Descriptor": {
+    "UId": "ab1b47aa-bfbd-988e-f64c-12518da87af8",
+    "Name": "NsPeriodTreatment",
+    "ModifiedOnUtc": "\/Date(1645801168000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "2c2c4a66-f091-4c99-a678-6826bee73365",
+      "Name": "NsPeriodTreatment"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "0ea83fe4-6c36-0ef9-1d4d-f84414356f7f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Number",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      }
+    ]
+  }
+}
