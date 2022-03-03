@@ -1,0 +1,45 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+      "A2": "NsNumberOfSessionForWord",
+      "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "7b1df8b5-faab-70fc-5e81-fc18962c5016",
+          "A2": "NsCurrentMounthPriceSession",
+          "A3": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A4": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "8501228a-40cd-6cdc-b2ee-879fc9851a2e",
+          "A2": "NsAllSumPriceSession",
+          "A3": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A4": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "93230a0a-70c4-2c24-59ac-c9c7e6b247a2",
+          "A2": "NsCurrentMounthNumberOfSession",
+          "A3": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A4": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "a13e0279-1e92-2009-1175-43e57114c131",
+          "A2": "NsAllNumberOfSession",
+          "A3": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A4": "e3e4e6af-2fe4-463a-af28-19a71fa235bc",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        }
+      ],
+      "B3": [],
+      "B6": "25c1c6f7-3eae-3ad8-fdfa-c1f18b89f5ab",
+      "B8": "7.18.4.1532",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
+    }
+  }
+}

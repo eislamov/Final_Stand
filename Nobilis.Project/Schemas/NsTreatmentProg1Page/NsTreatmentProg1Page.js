@@ -11,6 +11,9 @@ define("NsTreatmentProg1Page", ["ProcessModuleUtilities"], function(ProcessModul
 						}
 					]
 				}
+			},
+			"isValidator": {
+				"value":false
 			}
 		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
@@ -74,6 +77,9 @@ define("NsTreatmentProg1Page", ["ProcessModuleUtilities"], function(ProcessModul
                         this.set("Code", response);
                     });
                 }
+				if (this.get("Active")==true) {
+					this.set("isActiveByDefault", true);
+				}
 			},
 			asyncValidate: function(callback, scope) {
 				this.callParent([function(response) {
@@ -112,6 +118,7 @@ define("NsTreatmentProg1Page", ["ProcessModuleUtilities"], function(ProcessModul
 					var esq = Ext.create("Terrasoft.EntitySchemaQuery", { rootSchemaName: "NsTreatmentProg"});
 					esq.addColumn("Period.Id", "PeriodId");
 					esq.addColumn("Active");
+					esq.addColumn("Id");
 					var filter1= esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
 						"Period.Id", Terrasoft.NsConstantsJS.NsPeriodTreatment.Daily));
 					var filter2= esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
@@ -120,14 +127,21 @@ define("NsTreatmentProg1Page", ["ProcessModuleUtilities"], function(ProcessModul
 					esq.filters.add("filter1", filter1);
 					esq.filters.add("filter2", filter2);
 					esq.getEntityCollection(function(response) {
+						var count=countSettings;
+						for (var i=0; i<response.collection.getCount(); i++) {
+							if (response.collection.getItems()[i].$Id===this.$Id) {
+								count = countSettings + 1;
+							}
+						}
 						if (response.success && periodicity === Terrasoft.NsConstantsJS.NsPeriodTreatment.Daily && activity &&
-							 (this.changedValues && response.collection.getCount() >= countSettings)) {
+							 (this.changedValues && response.collection.getCount() >= count)) {
 								result.message = Ext.String.format(this.get("Resources.Strings.NsLimitOfDailyTreatmentProg"), countSettings);
 								result.success = false;
 						}
 						callback.call(scope || this, result);
 					}, this);
 				}, this);
+				this.set("isValidator", true)
 			},
 
 			getActions: function() {
@@ -152,8 +166,9 @@ define("NsTreatmentProg1Page", ["ProcessModuleUtilities"], function(ProcessModul
 							messageTags: [this.sandbox.id]
 						};
 						this.save();
-						this.AddRecordSession();
-						
+						if (this.get("isValidator")){
+							this.AddRecordSession();
+						}
 					}
 				}, ["yes", "no"]);
 			},
