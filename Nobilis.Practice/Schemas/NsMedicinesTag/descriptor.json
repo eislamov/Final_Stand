@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "77ce0aa7-6ada-4eb4-889e-4e446a55845f",
+    "Name": "NsMedicinesTag",
+    "ModifiedOnUtc": "\/Date(1646310463000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Лекарства"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d2488d7c-3fd9-4cfd-af99-d6ddbac7b313",
+    "Name": "NsMedicines29c05a37Section",
+    "ModifiedOnUtc": "\/Date(1646310629000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Лекарства\""
+  }
+}

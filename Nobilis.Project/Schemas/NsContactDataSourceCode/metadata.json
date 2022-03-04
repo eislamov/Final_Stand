@@ -1,0 +1,52 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+      "A2": "NsContactDataSourceCode",
+      "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "c03121b7-7888-32dc-c6ae-6f60e6859a3d",
+          "A2": "AccountLabel",
+          "A3": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A4": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "9bcb50ed-f88d-3992-ebfc-ee73903626d7",
+          "A2": "GenderLabel",
+          "A3": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A4": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "a4e5d36e-fecc-eeff-a7c3-10ada5627262",
+          "A2": "BirthdayLabel",
+          "A3": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A4": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "9b61cb26-c31b-1d1b-e2ee-336b5b6010d4",
+          "A2": "FullNameLabel",
+          "A3": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A4": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        },
+        {
+          "UId": "4817110f-39da-698a-03bd-8345805bebeb",
+          "A2": "ReportTitle",
+          "A3": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A4": "19e985e3-49ff-4f66-ab93-d62d8921c80a",
+          "A5": "d9e7e6fe-356a-4e82-8044-523b8236d17b"
+        }
+      ],
+      "B3": [],
+      "B6": "25c1c6f7-3eae-3ad8-fdfa-c1f18b89f5ab",
+      "B8": "7.18.4.1532",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
+    }
+  }
+}

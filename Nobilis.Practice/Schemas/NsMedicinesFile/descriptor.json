@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "7b313296-7b75-4171-a947-c508048d61da",
+    "Name": "NsMedicinesFile",
+    "ModifiedOnUtc": "\/Date(1646310458000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Лекарства"
+  }
+}

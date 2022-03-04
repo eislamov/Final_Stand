@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "80f5d183-3280-4b80-bc39-3b197a421c50",
+    "Name": "Schema2906f74aDetail",
+    "ModifiedOnUtc": "\/Date(1646312017000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Лекарства\""
+  }
+}

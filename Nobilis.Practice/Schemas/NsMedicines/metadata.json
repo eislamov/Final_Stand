@@ -1,0 +1,118 @@
+= MetaData.Schema.UId "bcf12d67-7312-4f27-a869-4ee9921577cd"
+= MetaData.Schema.A2 "NsMedicines"
+= MetaData.Schema.A5 "864b0f69-b3e7-4b55-93c3-cd8063d6702c"
+= MetaData.Schema.B6 "240868bb-c4a4-18de-85ee-8e65bb77c987"
+= MetaData.Schema.B8 "7.18.4.1532"
+= MetaData.Schema.EG1.UId "53db2308-0cb3-4199-96d8-c3573f155ad6"
+= MetaData.Schema.EG1.A2 "Entity_c99a935EventsProcess"
+= MetaData.Schema.EG1.A5 "864b0f69-b3e7-4b55-93c3-cd8063d6702c"
++ MetaData.Schema.EG1.B8 "7.18.4.1532"
+= MetaData.Schema.EG1.BK8 "7bb7d6a5-e7a3-4837-83bc-7f785d688165"
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK4.["08594d74-60b0-45ce-bf17-bac1a8b127f7"].CK2.["496d4a3c-b644-4a65-b0ed-2534d9236da5"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["90027ac8-c9c3-4d21-a4f9-da1cde752cd1"].CK2.["d8b8410f-5c8a-4ddc-8fc2-353483452aed"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["5f3bfbbe-1820-44ca-92f1-6f993169b2dd"].CK2.["d7c806b7-a29b-4ce5-9167-b3319472e772"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["dbf48103-dcf6-4f53-a052-d727a95ea0b4"].CK2.["933bf2fc-d052-40c8-a3e0-bf60049da5d8"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["f0646c74-f291-474f-9a10-143ee868f1c9"].CK2.["b3d5b61f-7afe-48b5-a8cc-40317ea9c428"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["8140d7e7-fb91-4999-8347-543345440efb"].CK2.["c803a450-c8dc-47a4-b704-7125c23db317"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
++ MetaData.Schema.EG1.Labels []
+= MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "d5e551d2-a225-18e5-2c06-b9460d9c3fc9"
++ MetaData.Schema.D2 {
+  "UId": "4a6feaa9-38c7-37c4-e189-5190306f7417",
+  "A2": "Account",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+  "E6": true,
+  "E20": true,
+  "E17": "AccountId",
+  "E18": "AccountName"
+}
++ MetaData.Schema.D2 {
+  "UId": "9d161d52-7bd3-a221-384d-897f46401ab3",
+  "A2": "Amount",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
+  "UId": "aaa97bc3-5bea-073b-7327-c2c981ddf33b",
+  "A2": "InStock",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907",
+  "E12": {
+    "FB1": 1,
+    "FB2": "False"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "a1828623-6473-64bf-a8bc-8c9bbba6ffbc",
+  "A2": "Price",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd",
+  "E2": 1
+}
++ MetaData.Schema.D2 {
+  "UId": "d5e551d2-a225-18e5-2c06-b9460d9c3fc9",
+  "A2": "Name",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E2": 1
+}
++ MetaData.Schema.D2 {
+  "UId": "7a74d5ed-7dff-4ccd-d02a-1dce99904347",
+  "A2": "Phase",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "168e34f9-4c1a-4a42-a359-00a2c399f3db",
+  "E6": true,
+  "E20": true,
+  "E17": "PhaseId",
+  "E18": "PhaseName"
+}
++ MetaData.Schema.D2 {
+  "UId": "452dfb7f-1535-4a96-9eb2-47edbd6dc7f1",
+  "A2": "Notes",
+  "A3": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A4": "bcf12d67-7312-4f27-a869-4ee9921577cd",
+  "A5": "864b0f69-b3e7-4b55-93c3-cd8063d6702c",
+  "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+  "E5": false
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","4a6feaa9-38c7-37c4-e189-5190306f7417","9d161d52-7bd3-a221-384d-897f46401ab3","aaa97bc3-5bea-073b-7327-c2c981ddf33b","a1828623-6473-64bf-a8bc-8c9bbba6ffbc","d5e551d2-a225-18e5-2c06-b9460d9c3fc9","7a74d5ed-7dff-4ccd-d02a-1dce99904347","452dfb7f-1535-4a96-9eb2-47edbd6dc7f1"]
+= MetaData.Schema.D20.A2 "NsMedicinesEvents"
+- MetaData.Schema.EG1.B6
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

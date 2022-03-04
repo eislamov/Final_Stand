@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2ad16931-c01e-467f-91b5-be820c82de39",
+    "Name": "NsMedicinesFolder",
+    "ModifiedOnUtc": "\/Date(1646310460000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Лекарства"
+  }
+}

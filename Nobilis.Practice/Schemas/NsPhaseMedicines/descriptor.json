@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "168e34f9-4c1a-4a42-a359-00a2c399f3db",
+    "Name": "NsPhaseMedicines",
+    "ModifiedOnUtc": "\/Date(1646309268000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Стадия Лекарства"
+  }
+}

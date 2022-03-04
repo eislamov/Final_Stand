@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Лекарства в группе" />
+			<Item Name="Columns.Folder.Caption" Value="Группа Лекарства" />
+			<Item Name="Columns.NsMedicines.Caption" Value="Лекарства" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>
