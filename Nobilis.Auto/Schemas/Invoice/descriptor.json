@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "28c3f083-5e87-40f8-b042-436305092753",
+    "Name": "Invoice",
+    "ModifiedOnUtc": "\/Date(1647847745000)\/",
+    "Parent": {
+      "UId": "bfb313dd-bb55-4e1b-8e42-3d346e0da7c5",
+      "Name": "Invoice"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Счет"
+  }
+}

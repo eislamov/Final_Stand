@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c63f701e-fc2c-4f44-9b05-54039d25c0e7",
+    "Name": "NsBrand1Page",
+    "ModifiedOnUtc": "\/Date(1646483478000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Марка\""
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "84b73842-c0bd-4741-8227-91ac99647f89",
+    "Name": "NsCreditProgram",
+    "ModifiedOnUtc": "\/Date(1646483649000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Кредитная программа"
+  }
+}

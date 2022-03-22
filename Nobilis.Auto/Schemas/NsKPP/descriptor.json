@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5df2af8a-a33c-405e-a2c5-99cfeb1bfec5",
+    "Name": "NsKPP",
+    "ModifiedOnUtc": "\/Date(1646480357000)\/",
+    "Parent": {
+      "UId": "2681062b-df59-4e52-89ed-f9b7dc909ab2",
+      "Name": "BaseCodeLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Коробка передач"
+  }
+}

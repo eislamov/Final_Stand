@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "516f8b1f-3f53-46a8-a12e-a2147c8079b2",
+    "Name": "NsCreditProgramFolder",
+    "ModifiedOnUtc": "\/Date(1646483652000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Кредитная программа"
+  }
+}

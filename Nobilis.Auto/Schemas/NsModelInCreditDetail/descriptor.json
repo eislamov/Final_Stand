@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ed5c6c4b-7036-4510-9313-6fd482a2d242",
+    "Name": "NsModelInCreditDetail",
+    "ModifiedOnUtc": "\/Date(1647010006000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "NsModelInCreditDetail"
+  }
+}

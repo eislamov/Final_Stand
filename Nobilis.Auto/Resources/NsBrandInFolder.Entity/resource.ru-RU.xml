@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Марка в группе" />
+			<Item Name="Columns.Folder.Caption" Value="Группа Марка" />
+			<Item Name="Columns.NsBrand.Caption" Value="Марка" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

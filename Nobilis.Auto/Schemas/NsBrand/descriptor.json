@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "09f17876-1dce-4407-92f7-e8317e34c393",
+    "Name": "NsBrand",
+    "ModifiedOnUtc": "\/Date(1646483480000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Марка"
+  }
+}

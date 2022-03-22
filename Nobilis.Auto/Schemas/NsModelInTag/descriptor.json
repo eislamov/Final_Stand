@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4d333d5b-f62d-447a-90ba-63538384f65b",
+    "Name": "NsModelInTag",
+    "ModifiedOnUtc": "\/Date(1646483536000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела Модель"
+  }
+}

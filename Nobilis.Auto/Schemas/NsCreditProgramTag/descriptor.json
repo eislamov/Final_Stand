@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4285325a-d88c-4c21-afd4-e5c58a0d56bf",
+    "Name": "NsCreditProgramTag",
+    "ModifiedOnUtc": "\/Date(1646483655000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Кредитная программа"
+  }
+}

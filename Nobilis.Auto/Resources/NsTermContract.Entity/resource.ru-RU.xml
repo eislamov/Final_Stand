@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Условия договора" />
+			<Item Name="Columns.Contract.Caption" Value="Договор" />
+			<Item Name="Columns.DateOfCompletion.Caption" Value="Дата выполнения" />
+			<Item Name="Columns.Done.Caption" Value="Выполнено" />
+			<Item Name="Columns.Term.Caption" Value="Условие" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

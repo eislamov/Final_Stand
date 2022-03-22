@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.NsIsPaid.Caption" Value="Оплачен" />
+			<Item Name="EventsProcessSchema.BaseElements.ConditionalSequenceFlow1_7701b172155b4bc68572a9b1add4ad0e.Caption" Value="Условный поток 1" />
+			<Item Name="EventsProcessSchema.BaseElements.DefaultSequenceFlow1_52d3fcb5f5fc42009dacdcf851d32988.Caption" Value="Условный поток 2" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess3_1454b7e33a3a4081b4546e1c9e215116.Caption" Value="Событийный подпроцесс добавления счета" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask3_a23f0ccd78c3411881dad603e77ccbcc.Caption" Value="Определить схему объекта для генерации номера" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask4_850f8df88a9f41d289108b80683b8698.Caption" Value="Записать полученный номер в колонку объекта" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage3_f131b5edaff245b7ab80dd5c0296c244.Caption" Value="До добавления счета" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1.Caption" Value="Сгенерировать номер по порядку 1" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1.Parameters.EntitySchema.Caption" Value="EntitySchema" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1.Parameters.ResultCode.Caption" Value="ResultCode" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_dd40ffe8c00f4317bc6e9243bb37cabf.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_dd40ffe8c00f4317bc6e9243bb37cabf.Lanes.Lane_957227b6c1fb45158cc81db753ee6398.Caption" Value="Lane 1" />
+		</Items>
+	</Group>
+</Resources>

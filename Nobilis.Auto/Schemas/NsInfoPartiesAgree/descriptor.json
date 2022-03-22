@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6b1b5ea5-72cd-449d-a187-4b0b72a12891",
+    "Name": "NsInfoPartiesAgree",
+    "ModifiedOnUtc": "\/Date(1647251163000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Схема детали: \"Информация об участниках договора\""
+  }
+}

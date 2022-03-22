@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Кредитная программа&quot;" />
+			<Item Name="LocalizableStrings.ModelTabLabelTabCaption.Value" Value="Модели" />
+			<Item Name="LocalizableStrings.NsDateValidorMes.Value" Value="Дата окончания должна быть больше не менее, чем на годе, чем дата начала," />
+			<Item Name="LocalizableStrings.NsModelDetail630e87b4DetailCaptionOnPage.Value" Value="Модели" />
+		</Items>
+	</Group>
+</Resources>

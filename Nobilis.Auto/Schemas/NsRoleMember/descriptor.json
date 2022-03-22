@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "a93b614b-ef33-4bd5-90b0-98b4be85466c",
+    "Name": "NsRoleMember",
+    "ModifiedOnUtc": "\/Date(1647250241000)\/",
+    "Parent": {
+      "UId": "2681062b-df59-4e52-89ed-f9b7dc909ab2",
+      "Name": "BaseCodeLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Роль участника"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "93de069e-5d63-48bd-8080-05f0d955488c",
+    "Name": "NsBrandSection",
+    "ModifiedOnUtc": "\/Date(1646483849000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Марка\""
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "99f428b7-f98f-4df3-8444-3d95fff086be",
+    "Name": "NsModelInFolder",
+    "ModifiedOnUtc": "\/Date(1646483533000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Модель в группе"
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ddcf33e7-e69a-4169-8002-1028f89303d9",
+    "Name": "Contract",
+    "ModifiedOnUtc": "\/Date(1646914365000)\/",
+    "Parent": {
+      "UId": "897be3e4-0333-467d-88e2-b7a945c0d810",
+      "Name": "Contract"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Договор"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5e29ad6c-f746-412f-aae0-7ecf96c56028",
+    "Name": "NsBrandTag",
+    "ModifiedOnUtc": "\/Date(1646483487000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Марка"
+  }
+}

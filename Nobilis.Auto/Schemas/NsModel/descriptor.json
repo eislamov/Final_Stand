@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fbcf1e40-ee7d-45bf-bfe4-a137b1e98735",
+    "Name": "NsModel",
+    "ModifiedOnUtc": "\/Date(1647004513000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Модель"
+  }
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Contact.Caption" Value="Контакт" />
+			<Item Name="Columns.NsCreditAmount.Caption" Value="Сумма кредита" />
+			<Item Name="Columns.NsCreditPeriod.Caption" Value="Срок кредита" />
+			<Item Name="Columns.NsCreditProgram.Caption" Value="Кредитная программа" />
+			<Item Name="Columns.NsCurrency.Caption" Value="Валюта" />
+			<Item Name="Columns.NsDate.Caption" Value="Дата" />
+			<Item Name="Columns.NsFactAmount.Caption" Value="Оплаченная сумма" />
+			<Item Name="Columns.NsFirstAmount.Caption" Value="Первоначальный взнос" />
+			<Item Name="Columns.NsIsPaid.Caption" Value="Оплачен" />
+			<Item Name="Columns.NsModel.Caption" Value="Модель" />
+		</Items>
+	</Group>
+</Resources>

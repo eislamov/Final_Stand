@@ -1,0 +1,45 @@
+﻿{
+  "Descriptor": {
+    "UId": "bbc4b8a1-16f9-6cea-527b-3112c6dc08ca",
+    "Name": "Nobilis.Auto",
+    "ModifiedOnUtc": "\/Date(1646493386000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "29c7b5a2-1b24-4486-9276-6f30e0b427b5",
+        "PackageVersion": "7.8.0",
+        "Name": "CoreContracts"
+      },
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      },
+      {
+        "UId": "36d65faf-3f18-1cae-d2cb-b71c4414d164",
+        "PackageVersion": "7.8.0",
+        "Name": "Playbook"
+      },
+      {
+        "UId": "5be3998b-c5c3-42bb-a01c-2e4149059a97",
+        "PackageVersion": "7.8.0",
+        "Name": "Base"
+      },
+      {
+        "UId": "613fd913-be03-46ce-909b-f44e4225469e",
+        "PackageVersion": "7.8.0",
+        "Name": "UIv2"
+      },
+      {
+        "UId": "a7d9c356-450c-46d7-bc85-72dca4e280ba",
+        "PackageVersion": "7.8.0",
+        "Name": "NUI"
+      },
+      {
+        "UId": "e7a2c20a-9591-484e-bf77-5953f2dc592e",
+        "PackageVersion": "7.8.0",
+        "Name": "Invoice"
+      }
+    ]
+  }
+}

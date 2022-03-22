@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cf69f671-fd9c-472c-b104-5cf7ab2836a9",
+    "Name": "NsCreditProgramInFolder",
+    "ModifiedOnUtc": "\/Date(1646483654000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Кредитная программа в группе"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "a6c06245-c82c-430b-9135-f533711eee6c",
+    "Name": "NsCreditProgram1Page",
+    "ModifiedOnUtc": "\/Date(1647432846000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Кредитная программа\""
+  }
+}

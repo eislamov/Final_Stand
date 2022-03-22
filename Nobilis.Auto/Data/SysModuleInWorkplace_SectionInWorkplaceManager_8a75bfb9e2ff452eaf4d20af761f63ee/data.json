@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8a75bfb9-e2ff-452e-af4d-20af761f63ee"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 30
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "64980472-0090-4843-8aac-337931df521c",
+          "DisplayValue": "Автосалон"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "968da333-b84f-4c66-8ac8-2ed121b3d6e0",
+          "DisplayValue": "Модель"
+        }
+      ]
+    }
+  ]
+}

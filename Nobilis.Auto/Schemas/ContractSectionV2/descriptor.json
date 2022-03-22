@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8e185fae-7182-4e46-998f-79bab54682e6",
+    "Name": "ContractSectionV2",
+    "ModifiedOnUtc": "\/Date(1647268013000)\/",
+    "Parent": {
+      "UId": "12c75b69-6f6f-462c-a00c-490fd3f1cd69",
+      "Name": "ContractSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Договоры\""
+  }
+}

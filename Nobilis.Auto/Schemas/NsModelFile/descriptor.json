@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "41be6599-7cdf-4a08-bb0f-1e58936b3de3",
+    "Name": "NsModelFile",
+    "ModifiedOnUtc": "\/Date(1646483530000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Модель"
+  }
+}

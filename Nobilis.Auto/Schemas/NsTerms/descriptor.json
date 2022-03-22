@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "86f69134-f58e-42cc-a32d-30c44edb02bb",
+    "Name": "NsTerms",
+    "ModifiedOnUtc": "\/Date(1647265599000)\/",
+    "Parent": {
+      "UId": "2681062b-df59-4e52-89ed-f9b7dc909ab2",
+      "Name": "BaseCodeLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Условие"
+  }
+}

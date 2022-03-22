@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ae289519-ae42-4294-ac0b-9583b7608112",
+    "Name": "NsBrandFolder",
+    "ModifiedOnUtc": "\/Date(1646483483000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Марка"
+  }
+}

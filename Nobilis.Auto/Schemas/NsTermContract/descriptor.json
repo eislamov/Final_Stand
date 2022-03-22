@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "62e3721e-0933-47c9-8842-3e4853a44abc",
+    "Name": "NsTermContract",
+    "ModifiedOnUtc": "\/Date(1647266428000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Условия договора"
+  }
+}

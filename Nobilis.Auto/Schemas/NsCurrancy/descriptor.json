@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fc502a09-813c-4323-a010-197a8c578c1a",
+    "Name": "NsCurrancy",
+    "ModifiedOnUtc": "\/Date(1646481694000)\/",
+    "Parent": {
+      "UId": "2681062b-df59-4e52-89ed-f9b7dc909ab2",
+      "Name": "BaseCodeLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Валюта"
+  }
+}

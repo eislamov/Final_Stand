@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6356a11a-2eb6-4284-8a61-ab599eeb1684",
+    "Name": "InvoiceSectionV2",
+    "ModifiedOnUtc": "\/Date(1647243331000)\/",
+    "Parent": {
+      "UId": "548685d1-2a48-4f86-9220-66723429d290",
+      "Name": "InvoiceSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Счета\""
+  }
+}

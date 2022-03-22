@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2693d515-f56e-4860-ac31-d27e7e0870f5",
+    "Name": "NsTermContractc9c8a3f5Page",
+    "ModifiedOnUtc": "\/Date(1647266281000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Карточка схемы: \"Условия договора\""
+  }
+}

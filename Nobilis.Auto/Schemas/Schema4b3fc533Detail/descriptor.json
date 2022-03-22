@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fe29bf99-750a-48ae-8183-255417edfbfe",
+    "Name": "Schema4b3fc533Detail",
+    "ModifiedOnUtc": "\/Date(1647250147000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Информация об участниках договора\""
+  }
+}
