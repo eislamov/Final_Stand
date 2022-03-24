@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Object" />
+			<Item Name="Columns.Code.Caption" Value="Код" />
+			<Item Name="Columns.CoverColor.Caption" Value="Цвет обложки" />
+			<Item Name="Columns.Name.Caption" Value="Название" />
+			<Item Name="Columns.Notes.Caption" Value="Заметки" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

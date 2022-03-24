@@ -314,7 +314,7 @@ define("ContractPageV2", ["MoneyModule", "MultiCurrencyEdit",
 		methods: {
 			onEntityInitialized: function() {
 				this.callParent(arguments);
-				this.set("Currency", this.get("NsCurrency"), {silent: true});
+				//this.set("Currency", this.get("NsCurrency"), {silent: true});
 				this.mixins.MultiCurrencyEditUtilities.init.call(this);
 				var argument=this.isCreditSet();
 				this.sandbox.publish("GetButtonIsEnabled", argument, null);

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "534dc966-e287-401c-9fee-6e498e600cce",
+    "Name": "NsHistory1f3b8689Page",
+    "ModifiedOnUtc": "\/Date(1648042310000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Карточка схемы: \"История\""
+  }
+}

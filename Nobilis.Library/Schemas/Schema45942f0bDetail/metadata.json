@@ -1,0 +1,9 @@
+= MetaData.Schema.UId "0e9a7746-efc0-4e93-8790-e4aa4903bd47"
+= MetaData.Schema.A2 "Schema45942f0bDetail"
+= MetaData.Schema.A5 "ac4f7f0f-d5d5-4e8b-997a-a2f7c46f033e"
+= MetaData.Schema.B2.["8f7c31a4-b656-47c9-a503-a72d0b3dd077"].A4 "0e9a7746-efc0-4e93-8790-e4aa4903bd47"
+= MetaData.Schema.B6 "41d5062b-0bb8-1418-1142-21f23b2326bf"
+= MetaData.Schema.B8 "7.18.4.1532"
+= MetaData.Schema.HD5 []
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

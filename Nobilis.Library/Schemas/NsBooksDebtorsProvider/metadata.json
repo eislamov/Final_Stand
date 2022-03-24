@@ -1,0 +1,66 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+      "A2": "NsBooksDebtorsProvider",
+      "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "54b11c4a-7801-026a-2952-6ba38034de5e",
+          "A2": "PlannedDateLabel",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        },
+        {
+          "UId": "343a9d14-77f7-29d7-3b9f-3107731b7cef",
+          "A2": "DateOfIssueLabel",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        },
+        {
+          "UId": "4b7295c3-0351-9054-be13-b3a0957f4853",
+          "A2": "AuthorLabel",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        },
+        {
+          "UId": "c57901aa-d1a2-38ed-7fa5-7c61ea5e6dfd",
+          "A2": "BookLabel",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        },
+        {
+          "UId": "44732501-a9c2-96cf-1ceb-6e30fb49697d",
+          "A2": "FullNameLabel",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        },
+        {
+          "UId": "6db8ebbf-0a1e-0911-f4ec-065d416a4ccd",
+          "A2": "NumberLabel",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        },
+        {
+          "UId": "d96afff5-1f07-afef-863c-cfd29dc8331f",
+          "A2": "ReportTitle",
+          "A3": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A4": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+          "A5": "a267307e-7225-4f4e-ab02-d493eaa3a586"
+        }
+      ],
+      "B3": [],
+      "B6": "41d5062b-0bb8-1418-1142-21f23b2326bf",
+      "B8": "7.18.4.1532",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
+    }
+  }
+}

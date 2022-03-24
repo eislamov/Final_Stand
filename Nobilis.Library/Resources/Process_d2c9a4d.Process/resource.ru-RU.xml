@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectColumnUId.Caption" Value="UId колонки связанного объекта" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectColumnUId.DisplayValue" Value="f442867d-73ca-49b3-a8ba-8a2566b1fc59" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectId.Caption" Value="Id связанного экземпляра объекта" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectId.DisplayValue" Value="[#Системная переменная.Контакт текущего пользователя#]" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.CreatedObjectFileIds.Caption" Value="Id созданных файлов" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.Caption" Value="Создавать отдельный отчет для каждой записи" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.Caption" Value="Коллекция отчетов" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.File.Caption" Value="Файл" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportId.DisplayValue" Value="4d218f2a-f1fd-1419-34e0-a1f9add1c69c" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportName.Caption" Value="Название файла" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportName.DisplayValue" Value="[#Системная настройка.Название файла отчета#] + &quot; &quot; +[#Системная переменная.Текущее значение даты#]" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportNameDataSourceColumnUId.Caption" Value="Id колонки из выборки для названия файла" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.Caption" Value="Тип действия с отчетами" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.DisplayValue" Value="0" />
+			<Item Name="Caption" Value="Выдать отчет по задолженностям" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+		</Items>
+	</Group>
+</Resources>

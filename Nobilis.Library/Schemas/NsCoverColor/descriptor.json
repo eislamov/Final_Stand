@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "69e3602f-a13a-4900-a333-405fd6fc5bb1",
+    "Name": "NsCoverColor",
+    "ModifiedOnUtc": "\/Date(1647958946000)\/",
+    "Parent": {
+      "UId": "2681062b-df59-4e52-89ed-f9b7dc909ab2",
+      "Name": "BaseCodeLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Цвет обложки"
+  }
+}

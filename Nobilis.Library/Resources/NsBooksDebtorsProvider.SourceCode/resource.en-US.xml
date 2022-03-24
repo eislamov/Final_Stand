@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Информация по должникам" />
+			<Item Name="LocalizableStrings.AuthorLabel.Value" Value="Автор" />
+			<Item Name="LocalizableStrings.BookLabel.Value" Value="Книга" />
+			<Item Name="LocalizableStrings.DateOfIssueLabel.Value" Value="Дата выдачи" />
+			<Item Name="LocalizableStrings.FullNameLabel.Value" Value="Контакт" />
+			<Item Name="LocalizableStrings.NumberLabel.Value" Value="№" />
+			<Item Name="LocalizableStrings.PlannedDateLabel.Value" Value="Планируемая дата возврата" />
+			<Item Name="LocalizableStrings.ReportTitle.Value" Value="Клиенты с задолженностью" />
+		</Items>
+	</Group>
+</Resources>

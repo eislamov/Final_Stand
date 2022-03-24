@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9eddcd45-bab8-49db-9d15-c78ffb96071c",
+    "Name": "NsBooksInFolder",
+    "ModifiedOnUtc": "\/Date(1647959537000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Книги в группе"
+  }
+}

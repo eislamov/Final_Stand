@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d51ee494-e4e8-4c5d-ac71-50facf8556d1",
+    "Name": "NsBooksInTag",
+    "ModifiedOnUtc": "\/Date(1647959540000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела Книги"
+  }
+}

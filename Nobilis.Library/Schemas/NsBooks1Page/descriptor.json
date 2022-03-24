@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "caf9ccab-7af9-4098-9e2e-0d66922d6942",
+    "Name": "NsBooks1Page",
+    "ModifiedOnUtc": "\/Date(1647963770000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Книги\""
+  }
+}

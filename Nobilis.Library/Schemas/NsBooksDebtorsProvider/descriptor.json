@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "821b7e6b-1b9d-4045-b68d-86b81063688d",
+    "Name": "NsBooksDebtorsProvider",
+    "ModifiedOnUtc": "\/Date(1648113948000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Информация по должникам"
+  }
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="История" />
+			<Item Name="Columns.Author.Caption" Value="Автор" />
+			<Item Name="Columns.Book.Caption" Value="Книга" />
+			<Item Name="Columns.Client.Caption" Value="Клиент" />
+			<Item Name="Columns.Comment.Caption" Value="Комментарии" />
+			<Item Name="Columns.DateOfIssue.Caption" Value="Дата выдачи" />
+			<Item Name="Columns.PlannedDate.Caption" Value="Планируемая дата возврата" />
+			<Item Name="Columns.Returned.Caption" Value="Возвращена" />
+			<Item Name="Columns.ReturnedDate.Caption" Value="Фактическая дата возврата" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

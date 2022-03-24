@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "86bc0ba6-6c4e-4e90-8115-18184dc5d465",
+    "Name": "Schema5b2e9566Detail",
+    "ModifiedOnUtc": "\/Date(1647963538000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"История\""
+  }
+}

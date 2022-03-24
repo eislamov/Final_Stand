@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4cca6d23-cd96-48ed-a424-14e8005f2975",
+    "Name": "NsHistory",
+    "ModifiedOnUtc": "\/Date(1648042312000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "История"
+  }
+}

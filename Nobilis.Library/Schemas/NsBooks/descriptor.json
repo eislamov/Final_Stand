@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "41aed285-ff52-4aa9-be36-3fe96948a172",
+    "Name": "NsBooks",
+    "ModifiedOnUtc": "\/Date(1647960756000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Книги"
+  }
+}
