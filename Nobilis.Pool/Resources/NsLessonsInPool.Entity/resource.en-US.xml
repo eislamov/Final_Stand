@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Object" />
+			<Item Name="Columns.Date.Caption" Value="Дата занятия" />
+			<Item Name="Columns.Duration.Caption" Value="Длительность" />
+			<Item Name="Columns.LessonState.Caption" Value="Состояние занятий" />
+			<Item Name="Columns.NumberMember.Caption" Value="Число участников" />
+			<Item Name="Columns.SwimProgram.Caption" Value="Программы плавания" />
+			<Item Name="Columns.Trainer.Caption" Value="Тренер" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

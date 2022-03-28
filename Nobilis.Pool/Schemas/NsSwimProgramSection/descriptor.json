@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "012cad30-2106-40be-b060-3839a154bf69",
+    "Name": "NsSwimProgramSection",
+    "ModifiedOnUtc": "\/Date(1648211346000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Программы плавания\""
+  }
+}

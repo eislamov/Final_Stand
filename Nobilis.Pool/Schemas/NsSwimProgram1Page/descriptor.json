@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1f87f0f7-0aaa-431e-911b-7d0e19185bf3",
+    "Name": "NsSwimProgram1Page",
+    "ModifiedOnUtc": "\/Date(1648211573000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Программы плавания\""
+  }
+}

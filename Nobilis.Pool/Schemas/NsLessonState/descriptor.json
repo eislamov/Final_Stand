@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "479cb2c8-80c3-4bb7-a8d1-801e3cd704fc",
+    "Name": "NsLessonState",
+    "ModifiedOnUtc": "\/Date(1648192607000)\/",
+    "Parent": {
+      "UId": "2681062b-df59-4e52-89ed-f9b7dc909ab2",
+      "Name": "BaseCodeLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Состояния занятий"
+  }
+}

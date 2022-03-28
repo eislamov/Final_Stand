@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1fb97477-70c9-4a43-9029-f1e5d5ae4f71",
+    "Name": "NsSwimProgramTag",
+    "ModifiedOnUtc": "\/Date(1648135402000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Программы плавания"
+  }
+}

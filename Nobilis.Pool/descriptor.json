@@ -1,0 +1,30 @@
+﻿{
+  "Descriptor": {
+    "UId": "bb42a2ae-82c4-b80a-6d5d-f29436d429ef",
+    "Name": "Nobilis.Pool",
+    "ModifiedOnUtc": "\/Date(1648132607000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      },
+      {
+        "UId": "36d65faf-3f18-1cae-d2cb-b71c4414d164",
+        "PackageVersion": "7.8.0",
+        "Name": "Playbook"
+      },
+      {
+        "UId": "5be3998b-c5c3-42bb-a01c-2e4149059a97",
+        "PackageVersion": "7.8.0",
+        "Name": "Base"
+      },
+      {
+        "UId": "613fd913-be03-46ce-909b-f44e4225469e",
+        "PackageVersion": "7.8.0",
+        "Name": "UIv2"
+      }
+    ]
+  }
+}

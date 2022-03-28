@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "30b44da8-b402-42dd-a652-0a1dee9a882e",
+    "Name": "NsSwimProgramFolder",
+    "ModifiedOnUtc": "\/Date(1648135399000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Программы плавания"
+  }
+}

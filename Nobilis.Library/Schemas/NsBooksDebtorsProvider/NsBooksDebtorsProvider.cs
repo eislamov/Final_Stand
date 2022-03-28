@@ -20,7 +20,6 @@ namespace Terrasoft.Configuration
 
         private readonly Guid _contactEntitySchemaUId = new Guid("16BE3651-8FE2-4159-8DD0-A803D4683DD3");
         private readonly Guid _nsHistoryEntitySchemaUId = new Guid("4CCA6D23-CD96-48ED-A424-14E8005F2975");
-        private readonly Guid _nsBookEntitySchemaUId = new Guid("41AED285-FF52-4AA9-BE36-3FE96948A172");
         private readonly string _resourceManagerName = "NsBooksDebtorsProvider";
 
         private readonly string[] _localizableStringNames = new[] {
@@ -38,22 +37,6 @@ namespace Terrasoft.Configuration
         #region Methods: Private
 
         private IEnumerable<IReadOnlyDictionary<string, object>> GetContactData(UserConnection userConnection,
-            Guid entitySchemaUId, IEntitySchemaQueryFilterItem filter) {
-            var entitySchema = userConnection.EntitySchemaManager.GetInstanceByUId(entitySchemaUId);
-            EntitySchemaQuery query = new EntitySchemaQuery(entitySchema);
-            var idColumn = query.AddColumn("Id");
-            query.Filters.Add(filter);
-            EntityCollection collection = query.GetEntityCollection(userConnection);
-            var result = new List<IReadOnlyDictionary<string, object>>();
-            foreach (var entity in collection) {
-                result.Add(new Dictionary<string, object> {
-                    ["Id"] = entity.GetTypedColumnValue<Guid>(idColumn.Name),
-                });
-            }
-            return result;
-        }
-
-        private IEnumerable<IReadOnlyDictionary<string, object>> GetBookData(UserConnection userConnection,
             Guid entitySchemaUId, IEntitySchemaQueryFilterItem filter) {
             var entitySchema = userConnection.EntitySchemaManager.GetInstanceByUId(entitySchemaUId);
             EntitySchemaQuery query = new EntitySchemaQuery(entitySchema);
@@ -135,8 +118,6 @@ namespace Terrasoft.Configuration
                 ["Contact"] = GetContactData(userConnection, _contactEntitySchemaUId, contactFilter),
                 ["NsHistory"] = GetHistoryData(userConnection, _nsHistoryEntitySchemaUId,
                     contactFilter),
-                /*["NsBooks"] = GetHistoryData(userConnection, _nsBookEntitySchemaUId,
-                    contactFilter),*/
                 ["LocalizableStrings"] = GetLocalizableStrings(userConnection)
             };
             return Task.FromResult(result);

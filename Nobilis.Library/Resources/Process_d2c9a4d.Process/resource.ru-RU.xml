@@ -9,16 +9,19 @@
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.CreatedObjectFileIds.Caption" Value="Id созданных файлов" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.Caption" Value="Создавать отдельный отчет для каждой записи" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.DisplayValue" Value="false" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.Caption" Value="Коллекция отчетов" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.File.Caption" Value="Файл" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportId.Caption" Value="Report Id" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportId.DisplayValue" Value="4d218f2a-f1fd-1419-34e0-a1f9add1c69c" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportName.Caption" Value="Название файла" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportName.DisplayValue" Value="[#Системная настройка.Название файла отчета#] + &quot; &quot; +[#Системная переменная.Текущее значение даты#]" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportNameDataSourceColumnUId.Caption" Value="Id колонки из выборки для названия файла" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.Caption" Value="Тип действия с отчетами" />
 			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.TargetEntitySchemaUId.Caption" Value="Target object" />
 			<Item Name="Caption" Value="Выдать отчет по задолженностям" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

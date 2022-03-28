@@ -128,11 +128,12 @@ define("NsHistory1f3b8689Page", [], function() {
 				if (returned) {
 					this.$Dates = false;
 					var today=new Date().setHours(0, 0, 0, 0);
+					var today2=new Date();
 					if (dateOfIssue.getTime()==today) {
-						this.set("ReturnedDate", new Date(dateOfIssue.setDate(dateOfIssue.getDate()+1)));
+						this.set("ReturnedDate", new Date(today2.setDate(today2.getDate()+1)));
 						this.showInformationDialog("Дата возврата должна быть больше даты выдачи. К дате возврата добавлен 1 день!");
 					} else {
-						this.set("ReturnedDate", new Date().toLocaleDateString());
+						this.set("ReturnedDate", new Date()); //new Date().toLocaleDateString());
 					}
 				} else {
 					this.$Dates = true;

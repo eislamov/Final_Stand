@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "72ac69d7-610b-41e8-a1db-da9e0def2b7e",
+    "Name": "NsSwimProgram",
+    "ModifiedOnUtc": "\/Date(1648135395000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Программы плавания"
+  }
+}

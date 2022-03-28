@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c69b687f-b24a-4f2e-b7f9-674f9e356cea",
+    "Name": "NsSwimProgramFile",
+    "ModifiedOnUtc": "\/Date(1648135397000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Программы плавания"
+  }
+}

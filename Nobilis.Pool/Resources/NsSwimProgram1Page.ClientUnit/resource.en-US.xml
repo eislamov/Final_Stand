@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Программы плавания&quot;" />
+			<Item Name="LocalizableStrings.NsAddRecordLessons.Value" Value="Добавить 8 записей в деталь &quot;Занятия в бассейне&quot;" />
+			<Item Name="LocalizableStrings.NsAddRecordLessonsMessage.Value" Value="Добавить 8 записей в деталь &quot;Занятия в бассейне&quot;? Перед добавлением, страница будет сохранена." />
+			<Item Name="LocalizableStrings.NsLimitOfDailySwimProg.Value" Value="Допускается не более {0} активных ежедневных программ плавания" />
+			<Item Name="LocalizableStrings.SchemaDetailLessonsDetailCaptionOnPage.Value" Value="Занятия в бассейне" />
+			<Item Name="LocalizableStrings.TabLessonsLabelTabCaption.Value" Value="Занятия в бассейне" />
+		</Items>
+	</Group>
+</Resources>

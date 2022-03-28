@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Схема раздела: &quot;Программы плавания&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Программы плавания" />
+			<Item Name="LocalizableStrings.NsAddRecordLessons.Value" Value="Добавить 8 записей в деталь &quot;Занятия в бассейне&quot;" />
+		</Items>
+	</Group>
+</Resources>

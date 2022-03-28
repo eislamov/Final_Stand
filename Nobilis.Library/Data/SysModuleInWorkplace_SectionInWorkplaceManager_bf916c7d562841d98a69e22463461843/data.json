@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "bf916c7d-5628-41d9-8a69-e22463461843"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 39
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "12d2ee9c-742d-4d6c-8a13-be4e09ef43ae",
+          "DisplayValue": "Библиотека"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "27ba9e8e-a88d-429a-af41-67c407241a91",
+          "DisplayValue": "Книги"
+        }
+      ]
+    }
+  ]
+}

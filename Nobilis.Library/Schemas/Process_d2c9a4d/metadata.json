@@ -240,6 +240,7 @@
           "A5": "41d5062b-0bb8-1418-1142-21f23b2326bf",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "c0b0ea9f-4421-4966-8375-5d86d287a1cb",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -291,11 +292,11 @@
           "BO3": true,
           "FC1": [],
           "ED1": false,
-          "PS1": "0 15 18 * * ? *",
+          "PS1": "0 6 22 * * ? *",
           "PS3": 2,
           "PS4": "null",
           "PS5": "null",
-          "PS6": "UTC"
+          "PS6": "Russian Standard Time"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaUserTask",
@@ -450,7 +451,8 @@
                 "GS1": 1,
                 "GS2": "e9eafee9-c4e4-4793-ad0a-003bd2c6a9b4",
                 "GS5": "c0b0ea9f-4421-4966-8375-5d86d287a1cb"
-              }
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15"
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
